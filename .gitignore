@@ -1,0 +1,30 @@
+# 1C binaries / dumps (do not commit)
+*.cf
+*.cfu
+*.cfe
+*.dt
+*.epf
+*.erf
+
+# Temporary / logs
+*.log
+*.tmp
+*.bak
+*.old
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 1C Designer / local caches (varies by setup)
+**/1Cv8.1CD
+**/*.pfl
+**/*.tmp
+
+# EDT / Eclipse workspace metadata (do not commit)
+.metadata/
+
+# If you export configuration to files, keep only sources under 1c/src/
+# and avoid committing generated artifacts outside that folder.
